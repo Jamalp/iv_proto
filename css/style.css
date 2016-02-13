@@ -536,6 +536,9 @@ section.contact-us {
   padding: 0 10% 80px;
   background-image: url("../img/funky.svg");
   background-color: #ecf0f1; }
+  @media only screen and (max-width: 480px) {
+    section.contact-us {
+      padding: 0 5% 40px; } }
   section.contact-us .wrapper {
     width: 100%; }
     section.contact-us .wrapper .map {
