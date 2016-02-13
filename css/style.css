@@ -540,3 +540,6 @@ section.contact-us {
     width: 100%; }
     section.contact-us .wrapper .map {
       margin-top: 40px; }
+      @media only screen and (max-width: 480px) {
+        section.contact-us .wrapper .map iframe {
+          height: 350px; } }
