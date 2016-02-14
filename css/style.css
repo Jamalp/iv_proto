@@ -272,8 +272,8 @@ nav.navigation {
           transform: translateY(0); }
 
 .menu-item.hide-block:nth-child(2) {
-  -webkit-transition-delay: .3s;
-          transition-delay: .3s; }
+  -webkit-transition-delay: .2s;
+          transition-delay: .2s; }
 
 .menu-item.hide-block:nth-child(3) {
   -webkit-transition-delay: .3s;
@@ -294,6 +294,10 @@ nav.navigation {
 .menu-item.hide-block:nth-child(7) {
   -webkit-transition-delay: .7s;
           transition-delay: .7s; }
+
+.benefits.hide-block {
+  -webkit-transition-delay: .2s;
+          transition-delay: .2s; }
 
 .copy {
   width: 70%;
