@@ -1,0 +1,1 @@
+$(document).ready(function(){function o(){var o=n.height(),e=n.scrollTop(),r=e+o;$.each(i,function(){var o=$(this),i=$(o).outerHeight(),n=$(o).offset().top,t=n+i;t>=e&&r>=n&&o.addClass("reveal-block")})}var i=$.find(".hide-block"),n=$(window);$(window).on("scroll resize",function(){o()}),$(window).trigger("scroll")});
